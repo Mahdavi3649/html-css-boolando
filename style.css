@@ -6,17 +6,18 @@
 }
 
 .products {
-  width: 1200px;
-  margin: 40px auto;
+  width: 1000px;
+  margin: 10px auto;
+  text-align: end;
   display: inline-block;
 }
 
 .product {
   display: inline-block;
   position: relative;
-  margin: auto;
-  width: 240px;
-  margin: 0 25px;
+  margin: 1px;
+  width: 260px;
+  margin: 0 3px;
 
   background-color: aqua;
 }
@@ -34,20 +35,33 @@
   font-size: 0.75rem;
   position: absolute;
   bottom: 1rem;
-  left: 5px;
+  left: 0px;
   color: white;
   display: inline-block;
   background-color: rgb(212, 8, 59);
+  font-weight: 600;
 }
 
 .badge_green {
   padding: 3px 6px;
   font-size: 0.75rem;
+  font-weight: 600;
   position: absolute;
   bottom: 1rem;
-  left: 45px;
+  left: 37px;
   color: white;
-  background-color: #126012fc;
+  background-color: #0b8a6afc;
+}
+
+.bg_green {
+  padding: 3px 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  color: white;
+  background-color: #0b8a6afc;
 }
 
 .brand {
