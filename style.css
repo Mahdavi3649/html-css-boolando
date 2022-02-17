@@ -1,0 +1,76 @@
+* {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.products {
+  width: 1200px;
+  height: 800px;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+.product {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 60px;
+  width: calc(100% / 5 - 8px);
+  height: 40%;
+  background-color: aqua;
+}
+
+.album-image img {
+  width: 95%;
+  display: inline-block;
+}
+
+.badge_red {
+  padding: 3px;
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 5px;
+  color: white;
+  display: inline-block;
+  background-color: rgb(212, 8, 59);
+}
+
+.badge_green {
+  padding: 3px 6px;
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 45px;
+  color: white;
+  background-color: #126012fc;
+}
+
+.brand {
+  text-align: left;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.price {
+  color: rgb(218, 6, 59);
+}
+
+.caption {
+  display: block;
+  text-align: left;
+}
+
+.like {
+  position: absolute;
+  top: 1rem;
+  right: 12px;
+  color: black;
+  background-color: white;
+  padding: 4px 10px;
+}
